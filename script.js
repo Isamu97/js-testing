@@ -64,10 +64,10 @@ function gameEnd() {
 
 function scoreUpdate() {
     if (playerScore == 5) {
-        score.textContent = "You won!!";
+        score.textContent = "Wanna play again?";
         gameEnd();
     } else if (computerScore == 5) {
-        score.textContent = "You lost!!";
+        score.textContent = "Wanna play again?";
         gameEnd();
     } else {
         score.textContent = `${playerScore} - ${computerScore}`;
